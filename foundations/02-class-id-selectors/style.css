@@ -1,0 +1,22 @@
+/* Define CLASS Odd Numbers */
+.odd-numbers {
+    background-color: #f3509c; 
+    color: #333;               
+    font-family: "Verdana", "DejaVu Sans", sans-serif; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+/* Define CLASS cool-odd-number */
+.cool-odd-number {
+    font-size: 24px;
+}
+/* Define ID second-element */
+#second-element { 
+    color: #1c49df;               
+    font-size: 36px;                    
+}
+/* Define ID fourth-elment */
+#fourth-element {
+    background-color: rgb(152, 255, 152);
+    font-size: 24px;
+    font-weight: bold;
+}
