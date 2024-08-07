@@ -1,0 +1,27 @@
+.button,
+.button_no {
+    color: rgb(5, 5, 5);
+/*    font: Helvetica, "Times New Roman", sans-serif;*/
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 20px;
+    margin-left: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-family: monospace;
+}
+.button {  
+    background-color: red   
+}
+.button_no {
+    background-color: rgb(146, 4, 63);
+}
+.button:hover{
+    background-color: rgb(241, 150, 12);
+    box-shadow: 0px 0px 12px 4px rgba(80, 9, 212, 0.74);
+}
+.button_no:hover{
+    background-color: rgb(80, 226, 22);
+    box-shadow: 0px 0px 12px 4px rgba(8, 103, 228, 0.74);
+}
