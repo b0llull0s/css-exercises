@@ -5,8 +5,8 @@
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 4fr; /* Keeps your existing column setup */
-  grid-template-rows: auto 1fr auto; /* Adjust rows as necessary */
+  grid-template-columns: 1fr 4fr; 
+  grid-template-rows: auto 1fr auto; 
   grid-template-areas: 
     "header header"
     "sidebar nav"
@@ -101,7 +101,7 @@
   background-color: #bccbde;
   grid-area: article;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 15px;
   
 }
@@ -141,3 +141,4 @@
   font-size: 13px;
   font-weight: normal;
 }
+
